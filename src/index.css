@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilo do carrossel */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  
+  li {
+    flex: 0 0 auto;
+  }
+  
+  /* Outros estilos */
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  /* Transições */
+  .transition-transform {
+    transition-property: transform;
+  }
+  
+  .duration-500 {
+    transition-duration: 500ms;
+  }
+  
+  .ease-in-out {
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  /* Posicionamento dos botões */
+  .absolute {
+    position: absolute;
+  }
+  .left-0 {
+    left: 0;
+  }
+  .right-0 {
+    right: 0;
+  }
+/*
+  .top-1/2 {
+    top: 50%;
+  }
+*/
+  .transform {
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Botões de navegação */
+  button {
+    height: 50px;
+    width: 50px;
+  }
+  
